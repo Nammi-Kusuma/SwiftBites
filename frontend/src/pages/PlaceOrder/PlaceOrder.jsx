@@ -3,7 +3,6 @@ import { ContextStorage } from '../../context/ContextStorage'
 import { useNavigate } from 'react-router-dom';
 import './PlaceOrder.css'
 import axios from 'axios';
-import {toast} from "react-toastify"
 
 const PlaceOrder = () => {
   const {cartTotal, token, food_list, cartItems, url} = useContext(ContextStorage);
